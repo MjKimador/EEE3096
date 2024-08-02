@@ -105,8 +105,7 @@ int main(void)
 
     // TODO: Check pushbuttons to change timer delay
     
-	  if (LL_GPIO_IsInputPinSet(GPIOA, LL_GPIO_PIN_0)) {
-	      buttonDelay = 500; // 0.5 s delay
+	  
 	  } else if (LL_GPIO_IsInputPinSet(GPIOA, LL_GPIO_PIN_1)) {
 	      buttonDelay = 2000; // 2 s delay
 	  } else if (LL_GPIO_IsInputPinSet(GPIOA, LL_GPIO_PIN_2)) {
